@@ -1,0 +1,15 @@
+body {
+    color: #222;
+}
+
+body > .container > .header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+body > .container > .header > .divide-comigo-logo {
+    display: block;
+    text-align: left;
+    width: auto;
+    height: 60px;
+}

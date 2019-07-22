@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRO for Devs</title>
+    <link href="./assets/style/normalize.css" rel="stylesheet" />
+    <link href="./assets/style/skeleton.css" rel="stylesheet" />
+    <link href="./assets/style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <img class="divide-comigo-logo" src="./assets/img/divide-comigo-logo.png" alt="Divide Comigo" />
+            <img src="./assets/img/logo.png" alt="CRO" />
+            <h1>CRO for DEVs</h1>
+        </section>
+        <form>
+            <label for="name">Nome completo</label>
+            <input class="u-full-width" type="text" placeholder="Nome completo" id="name" required>
+            <div class="row">
+                <div class="nine columns">
+                    <label for="email">E-mail</label>
+                    <input class="u-full-width" type="email" placeholder="email@email.com" id="email" required>
+                </div>
+                <div class="three columns">
+                    <label for="tel">Telefone</label>
+                    <input class="u-full-width" type="tel" placeholder="(xx) xxxxx-xxxx" id="tel" required>
+                </div>
+            </div>
+            <label for="message">Mensagem</label>
+            <textarea class="u-full-width" placeholder="Sua mensagem aqui..." id="message" required></textarea>
+            <input class="button-primary" type="submit" value="Enviar" id="btn-enviar">
+        </form>
+    </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
