@@ -9,7 +9,13 @@ body > .container > .header {
 
 body > .container > .header > .divide-comigo-logo {
     display: block;
+    height: 60px;
     text-align: left;
     width: auto;
-    height: 60px;
+}
+
+body > .container > form {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 20px 20px 10px 20px;
 }
