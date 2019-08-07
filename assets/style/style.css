@@ -19,3 +19,13 @@ body > .container > form {
     border-radius: 20px;
     padding: 20px 20px 10px 20px;
 }
+
+/* teste ab */
+.version-2 .btn-enviar {
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.version-3 .form-principal {
+    background-color: #ff8721;
+}
